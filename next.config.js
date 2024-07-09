@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/wsweb",
-    output: "export",
-    distDir: "build"
-}
+const nextConfig = {}
 
 module.exports = nextConfig
