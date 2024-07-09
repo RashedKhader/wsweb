@@ -36,13 +36,13 @@ const Footer = () => {
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Social Media</div>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <p className="flex flex-row items-center my-[15px] cursor-pointer" onClick={() => window.open("https://www.instagram.com/wahaspace/")} >
                             <FaInstagram />
                             <span className="text-[15px] ml-[6px]">Instagram</span>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <FaTwitter />
-                            <span className="text-[15px] ml-[6px]">Twitter</span>
+                            <span className="text-[15px] ml-[6px]">X</span>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <FaLinkedin />
