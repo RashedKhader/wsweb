@@ -9,7 +9,7 @@ import {
     RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -45,7 +45,7 @@ const Footer = () => {
                             <span className="text-[15px] ml-[6px]">Twitter</span>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxDiscordLogo />
+                            <FaLinkedin />
                             <span className="text-[15px] ml-[6px]">Linkedin</span>
                         </p>
                     </div>
