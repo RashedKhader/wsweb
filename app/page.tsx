@@ -7,12 +7,14 @@ import AboutUs from '@/components/main/AboutUs';
 // import SOLUTIONS from '@/components/main/Solutions';
 import Solutions from '@/components/main/Solutions';
 import Footer from '@/components/main/Footer';
+import Whyus from '@/components/main/whyus';
 
 export default function Home() {
   return (
       <main className="h-full w-full">
           <div className="flex flex-col gap-10">
               <Hero />
+              <Whyus />
               {/* <Skills /> */}
               {/* <Encryption />  */}
               <Solutions />
