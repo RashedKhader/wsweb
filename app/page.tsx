@@ -14,10 +14,10 @@ export default function Home() {
       <main className="h-full w-full">
           <div className="flex flex-col gap-10">
               <Hero />
+              <Solutions />
               <Whyus />
               {/* <Skills /> */}
               {/* <Encryption />  */}
-              <Solutions />
               <AboutUs />   
 
           </div>
