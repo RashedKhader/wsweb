@@ -34,7 +34,7 @@ const Footer = () => {
 
                             <span className="text-[15px] ml-[6px]">Become Sponsor</span>
                         </p>
-                        <p className="flex flex-row items-center my-[5px] cursor-pointer">
+                        <p className="flex flex-row items-center my-[5px] cursor-pointer" onClick={() => window.open("mailto:info@wahaspace.com")} > 
 
                             <span className="text-[15px] ml-[6px]">info@wahaspace.com</span>
                         </p>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .cursive {
-    font-family: 'Vazir', sans-serif;
+    font-family: "Cedarville Cursive", cursive;
 }
 .Welcome-text {
     background: linear-gradient(
