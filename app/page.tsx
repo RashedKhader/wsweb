@@ -7,7 +7,7 @@ import AboutUs from '@/components/main/AboutUs';
 // import SOLUTIONS from '@/components/main/Solutions';
 import Solutions from '@/components/main/Solutions';
 import Footer from '@/components/main/Footer';
-import Whyus from '@/components/main/whyus';
+import Whyus from '@/components/main/Whyus';
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
           <div className="flex flex-col gap-10">
               <Hero />
               <Whyus />
+
               {/* <Skills /> */}
               {/* <Encryption />  */}
               <Solutions />
