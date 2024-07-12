@@ -32,7 +32,7 @@ const Whyus = () => {
                  <ProjectCard
                     src="/cost1.png"
                     title="Reduced Costs"
-                    description="Being in the region ensures competitive pricing!"
+                    description="Waha Space offers competitive pricing, ensuring that clients receive unparalleled value without compromising on quality."
                     link=""
                 />
                 

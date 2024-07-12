@@ -13,6 +13,7 @@ const Hero = () => {
                 <source src="/intro3.webm" type="video/webm" />
             </video>
             <HeroContent />
+            box-shadow: inset 0 0 12px #bf97ff70;
         </div>
     );
 };

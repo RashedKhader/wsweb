@@ -4,22 +4,26 @@ import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 
-const SkillText = () => {
+const Ourvisiontxt = () => {
     return (
         <div className='w-full h-auto flex flex-col items-center justify-center'>
              <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-0">
-                ABOUT US
+                OUR VISION 
             </h1>
             <motion.div
                 variants={slideInFromRight(0.5)}
-                className='text-[20px] text-gray-200 mb-10 mt-[10px] text-center '
+                className='text-[20px] text-gray-200 mb-0 mt-[10px] text-center '
             >   
-                We are a dynamic startup based in the UAE, fueled by the enthusiasm and expertise of our young engineering team. <br/> 
-                 With a passion for space exploration and a drive for innovation, we specialize in creating cutting-edge satellite subsystems <br/> 
-                 offering engaging educational satellite kits, and providing consultancy services that challenge the status quo in the aerospace industry. 
+               At WahaSpace, our vision is to drive innovation in the global space industry. <br/> 
+                We strive to make satellite technology accessible, comprehensible, and practical for all.<br/> 
+                By bridging gaps in knowledge and technology, we aim to unveil the mysteries of the cosmos and harness space resources to improve life on Earth.
+
+
+
+
             </motion.div>
         </div>
     )
 }
 
-export default SkillText
+export default Ourvisiontxt
