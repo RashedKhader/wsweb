@@ -4,31 +4,38 @@ import ProjectCard from "../sub/ProjectCard";
 const Whyus = () => {
     return (
         <div
-            className="flex flex-col items-center justify-center py-20 z-20"
-            id="solutions"
+            className="flex flex-col items-center justify-center py-20 z-0"
+            id="Whyus"
         >
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-                Why US
+                Why Us
             </h1>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 justify-center">
                 <ProjectCard
-                    src="/innovation-icon.png"
+                    src="/innovation-icon.png" 
                     title="Innovation"
-                    description="CUBE SATS ADCS SUBSYSTEM  wwnvwp'nv'wvne'wnv'w\vnw'fj ie'pv p'wbe[oni wo'vhw c\e; ve; bv"
-                    link=""
-                />
-                {/* <ProjectCard
-                    src="/spplstm.png"
-                    title="Stock price prediction with LSTM"
-                    description="Stock Price Prediction with LSTM is a machine learning project that uses LSTM, a type of recurrent neural network, to predict stock prices."
+                    description="Pioneering solutions that challenge conventions and redefine satellite technology"
                     link=""
                 />
                 <ProjectCard
-                    src="/auto_mieten.png"
-                    title="Auto Mieten"
-                    description="Developed with Next.js and leveraging its server-side rendering capabilities, the Car Rental website presents various car types, showcasing comprehensive information in a well-designed format with advanced filtering and pagination support for an enhanced user experience."
+                    src="/Q1.png"
+                    title="Quality"
+                    description="Rigorous quality standards upheld by our young and passionate team."
                     link=""
-                /> */}
+                />
+                <ProjectCard
+                    src="/reach.png"
+                    title="Global Reach"
+                    description="A worldwide network connecting us with partners and clients, powered by our youthful spirit."
+                    link=""
+                />
+                 <ProjectCard
+                    src="/experience.png"
+                    title="Global Reach"
+                    description="A worldwide network connecting us with partners and clients, powered by our youthful spirit."
+                    link=""
+                />
+                
             </div>
         </div>
     );

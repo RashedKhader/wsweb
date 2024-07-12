@@ -13,13 +13,14 @@ interface Props {
 const ProjectCard = ({ src, title, description, link }: Props) => {
     return (
         <div className="relative rounded-lg shadow-lg border border-[#2A0E61] w-1/5 cursor-pointer" onClick={() => { window.open(link) }}>
-            <Image
+            {/* <Image
                 src={src}
                 alt={title}
-                width={1000}
+                width={500}
                 height={1000}
                 className="w-full object-contain"
-            />
+            /> */}
+            <img src={src} alt={title} style={{ height: "250px !important", margin: "auto" }} />
 
             <div className="relative p-4">
                 <h1 className="text-2xl font-semibold text-white">{title}</h1>
