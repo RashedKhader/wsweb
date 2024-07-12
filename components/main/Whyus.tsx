@@ -8,14 +8,14 @@ const Whyus = () => {
             id="solutions"
         >
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-                OUR SOLUTION
+                Why US
             </h1>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 justify-center">
                 <ProjectCard
-                    src="/1U.jpg"
-                    title="CubeSat ADCS"
+                    src="/innovation-icon.png"
+                    title="Innovation"
                     description="CUBE SATS ADCS SUBSYSTEM  wwnvwp'nv'wvne'wnv'w\vnw'fj ie'pv p'wbe[oni wo'vhw c\e; ve; bv"
-                    link="https://www.youtube.com"
+                    link=""
                 />
                 {/* <ProjectCard
                     src="/spplstm.png"
