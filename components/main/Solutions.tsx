@@ -14,7 +14,7 @@ const Solutions = () => {
                 <ProjectCard
                     src="/1U.jpg"
                     title="CubeSat ADCS"
-                    description="CUBE SATS ADCS SUBSYSTEM  wwnvwp'nv'wvne'wnv'w\vnw'fj ie'pv p'wbe[oni wo'vhw c\e; ve; bv"
+                    description="MORE DETAILS ABOUT OUR ADCS SYSTEM (might link it to an external page)"
                     link="https://www.youtube.com"
                 />
                 {/* <ProjectCard
