@@ -31,8 +31,8 @@ const Whyus = () => {
                 />
                  <ProjectCard
                     src="/cost1.png"
-                    title="Global Reach"
-                    description="A worldwide network connecting us with partners and clients, powered by our youthful spirit."
+                    title="Reduced Costs"
+                    description="Being in the region ensures competitive pricing!"
                     link=""
                 />
                 
