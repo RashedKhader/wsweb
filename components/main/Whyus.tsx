@@ -7,8 +7,8 @@ const Whyus = () => {
             className="flex flex-col items-center justify-center py-20 z-0"
             id="Whyus"
         >
-            <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-                Why Us
+            <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+                WHY US ?
             </h1>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 justify-center">
                 <ProjectCard
@@ -30,7 +30,7 @@ const Whyus = () => {
                     link=""
                 />
                  <ProjectCard
-                    src="/experience.png"
+                    src="/cost1.png"
                     title="Global Reach"
                     description="A worldwide network connecting us with partners and clients, powered by our youthful spirit."
                     link=""

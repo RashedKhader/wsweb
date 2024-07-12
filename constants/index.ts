@@ -89,7 +89,7 @@ export const Socials = [
     {
         name: "Linkedin",
         src: "/linkedin.svg",
-        link: "https://www.linkedin.com/in/nikhil-maguwala/",
+        link: "https://www.linkedin.com/company/wahaspace/about/",
     },
 ];
 
