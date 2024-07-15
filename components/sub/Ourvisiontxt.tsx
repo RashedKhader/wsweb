@@ -7,7 +7,7 @@ import { SparklesIcon } from '@heroicons/react/24/solid'
 const Ourvisiontxt = () => {
     return (
         <div className='w-full h-auto flex flex-col items-center justify-center'>
-             <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-0">
+             <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-500 py-0">
                 OUR VISION 
             </h1>
             <motion.div

@@ -32,7 +32,7 @@ const Footer = () => {
                         <div className="font-bold text-[16px]">About</div>
                         <p className="flex flex-row items-center my-[5px] cursor-pointer">
 
-                            <span className="text-[15px] ml-[6px]">Become Sponsor</span>
+                            <span className="text-[15px] ml-[6px]">For Inquiries </span>
                         </p>
                         <p className="flex flex-row items-center my-[5px] cursor-pointer" onClick={() => window.open("mailto:info@wahaspace.com")} > 
 
